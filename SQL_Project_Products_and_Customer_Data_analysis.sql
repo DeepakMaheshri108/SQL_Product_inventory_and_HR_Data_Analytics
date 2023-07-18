@@ -51,7 +51,7 @@ SELECT * FROM customers
 WHERE last_name REGEXP '^my|se' ;
 
 SELECT * FROM customers
-WHERE last_name REGEXP 'b[ru];
+WHERE last_name REGEXP 'b[ru]';
 
 
 -- 8) IS NULL operator. // Get orders that are NOT shipped--
